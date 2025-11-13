@@ -1,15 +1,17 @@
 ---
-// no props needed
+import Base from '../layouts/Base.astro';
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>NashMusic</title>
-  </head>
-  <body style="font-family: system-ui, sans-serif; padding: 2rem;">
+<Base title="Home">
+  <section class="card">
     <h1>Piano. Voice. Vibes.</h1>
-    <p>Deployment smoke test. If you can read this, Cloudflare Pages is working.</p>
-  </body>
-</html>
+    <p>Live shows, private lessons, and resources under one roof.</p>
+    <p>
+      <a class="btn" href="/booking">Book Me</a>
+      <a class="btn" href="/harmonic-home" style="background:#07b">Harmonic Home</a>
+    </p>
+  </section>
+  <section class="card" style="margin-top:12px">
+    <h2>Upcoming</h2>
+    <iframe src="/calendar-embed.html" style="width:100%;height:320px;border:0;border-radius:8px"></iframe>
+  </section>
+</Base>
