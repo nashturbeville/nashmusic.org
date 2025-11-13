@@ -1,0 +1,37 @@
+---
+const title = Astro.props.title ?? 'NashMusic';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{title} · NashMusic</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin:0; }
+    header, footer { border-bottom:1px solid #ddd; }
+    nav { max-width: 1000px; margin: 0 auto; padding: 12px; display:flex; gap:12px; }
+    main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+    .btn { display:inline-block; padding:.6rem 1rem; background:#0b7; color:#fff; text-decoration:none; border-radius:8px; }
+    .card { border:1px solid #ddd; border-radius:8px; padding:12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" style="font-weight:700">NashMusic</a>
+      <a href="/harmonic-home">Harmonic Home</a>
+      <a href="/booking">Booking</a>
+      <a href="/requests">Requests</a>
+      <a href="/payments">Payments</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+  <main><slot /></main>
+  <footer>
+    <nav style="border-top:1px solid #eee">
+      © {new Date().getFullYear()} NashMusic
+    </nav>
+  </footer>
+</body>
+</html>
