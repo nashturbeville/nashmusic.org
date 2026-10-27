@@ -3,8 +3,8 @@
   "headline": "A piano. A voice. Your kind of night.",
   "bio": "I'm Nash, a cruise ship singing pianist and dueling pianist. From solo piano evenings to the shared energy of dueling pianos, I bring live music and audience connection to the room. I also perform with J’s Dueling Pianos.",
   "portrait": "",
-  "bookingEmail": "",
-  "teachingEmail": "",
+  "bookingEmail": "booking@nashmusic.org",
+  "teachingEmail": "lessons@nashmusic.org",
   "phone": "+12545373870",
   "venmoUrl": "https://venmo.com/Nash-Turbeville",
   "cashAppUrl": "https://cash.app/$texasaggie2015",
@@ -15,5 +15,6 @@
   "videos": [],
   "songs": [],
   "events": [],
-  "zellePhone": "254-537-3870"
+  "zellePhone": "254-537-3870",
+  "generalEmail": "nash@nashmusic.org"
 }
