@@ -1,0 +1,2 @@
+import {json} from './_lib.js';
+export async function onRequestGet({request,env}){const id=new URL(request.url).searchParams.get('session_id');if(!env.STRIPE_SECRET_KEY||!/^cs_(test_|live_)?[a-zA-Z0-9_]+$/.test(id||''))return json({paid:false},400);try{const r=await fetch('https://api.stripe.com/v1/checkout/sessions/'+encodeURIComponent(id),{headers:{Authorization:`Bearer ${env.STRIPE_SECRET_KEY}`}});if(!r.ok)return json({paid:false},400);const s=await r.json();return json({paid:s.payment_status==='paid'});}catch{return json({paid:false},502);}}

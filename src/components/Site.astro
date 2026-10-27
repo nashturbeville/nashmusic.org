@@ -1,0 +1,21 @@
+---
+import '../styles/site.css';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nash Turbeville | Singing Pianist & Dueling Pianist</title>
+  <meta name="description" content="Live piano, singing, and dueling pianos with Nash Turbeville. Request a song, leave a tip, find upcoming shows, or book a performance."/>
+  <meta name="theme-color" content="#171b19"/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="/" data-nav><span class="brand-mark">N</span><span>NASH<span class="brand-small">TURBEVILLE</span></span></a><nav aria-label="Main navigation"><a href="/" data-nav>Home</a><a href="/requests" data-nav>Request a Song</a><a href="/booking" data-nav>Booking & EPK</a><a href="/calendar" data-nav>Calendar</a><a href="/contact" data-nav>Contact Me</a></nav><a class="header-cta" href="/requests" data-nav>Make it your song ↗</a></header>
+<main id="main" tabindex="-1"><p class="loading">Getting the music ready…</p></main>
+<footer><a class="footer-brand" href="/" data-nav>NASH TURBEVILLE</a><p>Singing pianist. Dueling pianist. Live music, shared.</p><div><a href="/booking" data-nav>Let's make a night of it ↗</a><span>© <span id="year"></span> Nash Turbeville</span></div></footer>
+<dialog id="request-dialog" aria-labelledby="request-title"><button class="close" aria-label="Close request">×</button><p class="eyebrow">YOUR SONG. YOUR MOMENT.</p><h2 id="request-title">Make a request</h2><form id="request-form"><label>Song<input name="song" required maxlength="160" placeholder="Song title — artist"/></label><label>Dedication <span class="muted">(optional)</span><input name="dedication" maxlength="200" placeholder="A name, a celebration, a little context…"/></label><label>Your name <span class="muted">(optional)</span><input name="name" maxlength="60" autocomplete="given-name"/></label><div class="tip-label">Leave a little love <span class="muted">Tips are optional</span></div><div class="amounts"><button type="button" data-amount="5">$5</button><button type="button" data-amount="10" class="selected">$10</button><button type="button" data-amount="20">$20</button><label class="custom-amount"><span>$</span><input name="amount" type="number" value="10" min="1" max="500" step="0.01" aria-label="Custom tip in dollars"/></label></div><button class="button primary full" type="submit">Continue to request & tip →</button><p class="fine">Requests are welcome; a tip doesn’t guarantee a song or a place in the queue.</p></form><div id="payment-step" hidden></div></dialog>
+<div class="toast" role="status" id="toast"></div>
+<script src="../scripts/site.js"></script>
+</body></html>
