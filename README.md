@@ -6,12 +6,24 @@ Nash Turbeville's performance, song request, tipping, booking, and calendar webs
 
 Open `/studio` on the website. Fill in your details and download the updated `content.json`. In GitHub, replace `public/content.json` with that downloaded file and commit the change. Cloudflare publishes the update automatically. The editor does not publish by itself. Its fields contain public information only; never enter account passwords or secret keys.
 
-You can also send your repertoire, dates, and performance links to your coding assistant to add for you. The website starts with honest empty states, without sample performances or invented repertoire.
+You can also send your repertoire, dates, and performance links to your coding assistant to add for you. The repertoire is populated from Nash’s Apple Notes: Repertoire, Pop/Rap, Favorites, and Songs Memorized. Other content can be added as it becomes available.
 
 Song example for the Songs field (replace with songs you actually perform):
 ```json
 [{"title":"Your song title","artist":"Original artist","genre":"Pop","decade":"1990s"}]
 ```
+
+### Repertoire maintenance
+
+The public song list lives in `public/content.json`, under `songs`. Each entry has a title, artist, broad genre, and decade. Artist, Genre, and Decade filters work together with text search. Results show 50 songs at a time; filtering searches the entire list.
+
+The October 2026 import combines four Apple Notes, corrects obvious title spellings, and removes duplicate title/artist pairs. Explicitly named versions remain separate (for example, Gravity by John Mayer and Sara Bareilles). Nash approved including songs marked “almost” or with question marks. Asterisks and personal practice annotations are not displayed publicly. The incomplete “30h3 -” entry awaits a song title.
+
+Decades refer to the listed artist’s familiar recording, rather than a later compilation or remaster; classical works use their composition/premiere era. Broad genres are browsing categories, not exclusive musical classifications. Unspecified artists use a representative familiar version and can be corrected as Nash reviews the list.
+
+To add more songs, supply another note or a list with `Title — Artist` whenever possible. Merge by title **and** artist; do not replace the existing list. Review remaster dates and ambiguous titles before publishing. Notes are imported snapshots, not automatically synchronized. The local `repertoire/` folder preserves the source notes, catalog checks, import provenance, and an editable CSV; it is deliberately excluded from Git and public hosting.
+
+Validate repertoire changes with `node --test tests/repertoire.test.js`, then run the normal build.
 
 Video example:
 ```json

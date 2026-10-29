@@ -4,3 +4,7 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 .zelle-details{margin:20px 0;text-align:left}.zelle-details summary{cursor:pointer}.zelle-details p{margin-top:14px;font-size:14px}
+
+/* Repertoire filters remain usable with long artist names on phones. */
+.filter-row{flex-wrap:wrap}.filter-row label{min-width:0}.filter-row select{max-width:250px}.more-songs{text-align:center;padding:25px 0}.more-songs p{font-size:12px;color:var(--muted);margin-bottom:10px}
+@media(max-width:760px){.filter-row{display:grid;grid-template-columns:1fr 1fr}.filter-row label{display:flex;flex-direction:column;align-items:stretch;gap:4px}.filter-row label:first-child{grid-column:1/-1}.filter-row select{width:100%;max-width:100%;min-height:44px}.filter-row #clear-song-filters{justify-self:start}.filter-row .status-pill{margin:0;justify-self:end}.song-row p{font-size:12px}}

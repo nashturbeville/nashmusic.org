@@ -4,3 +4,6 @@ dist/
 .dev.vars
 .env*
 !.env.example
+
+# Local Apple Notes import material and catalog review files
+repertoire/
