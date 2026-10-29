@@ -108,7 +108,8 @@
       "title": "All Night Long (All Night)",
       "artist": "Lionel Richie",
       "genre": "R&B/Soul",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "All of Me",
@@ -216,7 +217,8 @@
       "title": "Arthur's Theme (Best That You Can Do)",
       "artist": "Christopher Cross",
       "genre": "Broadway & Film",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "A Song for You",
@@ -306,7 +308,8 @@
       "title": "Bennie and the Jets",
       "artist": "Elton John",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Bésame Mucho",
@@ -324,7 +327,8 @@
       "title": "Beyond the Sea",
       "artist": "Bobby Darin",
       "genre": "Jazz & Standards",
-      "decade": "1950s"
+      "decade": "1950s",
+      "favorite": true
     },
     {
       "title": "Big Green Tractor",
@@ -402,7 +406,8 @@
       "title": "Brandy (You're a Fine Girl)",
       "artist": "Looking Glass",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Breakaway",
@@ -594,7 +599,8 @@
       "title": "Come Fly with Me",
       "artist": "Frank Sinatra",
       "genre": "Jazz & Standards",
-      "decade": "1950s"
+      "decade": "1950s",
+      "favorite": true
     },
     {
       "title": "Come Monday",
@@ -852,7 +858,8 @@
       "title": "Dreams",
       "artist": "Fleetwood Mac",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Drinkin' Problem",
@@ -882,7 +889,8 @@
       "title": "Easy",
       "artist": "Commodores",
       "genre": "R&B/Soul",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Eleanor Rigby",
@@ -906,7 +914,8 @@
       "title": "Escape (The Pina Colada Song)",
       "artist": "Rupert Holmes",
       "genre": "Pop",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Everybody (Backstreet's Back)",
@@ -990,7 +999,8 @@
       "title": "Fly Me to the Moon",
       "artist": "Frank Sinatra",
       "genre": "Jazz & Standards",
-      "decade": "1960s"
+      "decade": "1960s",
+      "favorite": true
     },
     {
       "title": "Folsom Prison Blues",
@@ -1002,7 +1012,8 @@
       "title": "Fooled Around and Fell in Love",
       "artist": "Elvin Bishop",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Forever and Ever, Amen",
@@ -1044,7 +1055,8 @@
       "title": "Friends in Low Places",
       "artist": "Garth Brooks",
       "genre": "Country",
-      "decade": "1990s"
+      "decade": "1990s",
+      "favorite": true
     },
     {
       "title": "Funny How Time Slips Away",
@@ -1062,7 +1074,8 @@
       "title": "Georgia on My Mind (Original Master Recording)",
       "artist": "Ray Charles",
       "genre": "Jazz & Standards",
-      "decade": "1960s"
+      "decade": "1960s",
+      "favorite": true
     },
     {
       "title": "Get Here",
@@ -1338,7 +1351,8 @@
       "title": "How Deep Is Your Love",
       "artist": "Bee Gees",
       "genre": "Pop",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "How High the Moon",
@@ -1398,7 +1412,8 @@
       "title": "I Guess That's Why They Call It the Blues",
       "artist": "Elton John",
       "genre": "Pop",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "I Hope You Dance",
@@ -1650,7 +1665,8 @@
       "title": "King Of The Road",
       "artist": "Roger Miller",
       "genre": "Country",
-      "decade": "1960s"
+      "decade": "1960s",
+      "favorite": true
     },
     {
       "title": "Kissing a Fool",
@@ -1914,13 +1930,15 @@
       "title": "Man In the Mirror",
       "artist": "Michael Jackson",
       "genre": "Pop",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "Margaritaville",
       "artist": "Jimmy Buffett",
       "genre": "Country",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Me and Mrs. Jones",
@@ -1986,7 +2004,8 @@
       "title": "Moondance",
       "artist": "Van Morrison",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Moonlight In Vermont",
@@ -2010,7 +2029,8 @@
       "title": "Movin' Out (Anthony's Song)",
       "artist": "Billy Joel",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Mr. Bojangles",
@@ -2094,7 +2114,8 @@
       "title": "Neon Moon",
       "artist": "Brooks & Dunn",
       "genre": "Country",
-      "decade": "1990s"
+      "decade": "1990s",
+      "favorite": true
     },
     {
       "title": "Nessun dorma",
@@ -2106,7 +2127,8 @@
       "title": "New York State of Mind",
       "artist": "Billy Joel",
       "genre": "Pop",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Night Moves",
@@ -2244,7 +2266,8 @@
       "title": "Ordinary People",
       "artist": "John Legend",
       "genre": "R&B/Soul",
-      "decade": "2000s"
+      "decade": "2000s",
+      "favorite": true
     },
     {
       "title": "Over the Rainbow",
@@ -2382,7 +2405,8 @@
       "title": "Quando, Quando, Quando",
       "artist": "Engelbert Humperdinck",
       "genre": "Pop",
-      "decade": "1960s"
+      "decade": "1960s",
+      "favorite": true
     },
     {
       "title": "¿Quién Será? (Sway)",
@@ -2520,7 +2544,8 @@
       "title": "Sad Songs (Say So Much)",
       "artist": "Elton John",
       "genre": "Pop",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "Said I Loved You...But I Lied",
@@ -2538,7 +2563,8 @@
       "title": "Sailing",
       "artist": "Christopher Cross",
       "genre": "Pop",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Sailing",
@@ -2556,7 +2582,8 @@
       "title": "Sara Smile",
       "artist": "Daryl Hall & John Oates",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Satisfied",
@@ -2850,13 +2877,15 @@
       "title": "Strawberry Wine",
       "artist": "Deana Carter",
       "genre": "Country",
-      "decade": "1990s"
+      "decade": "1990s",
+      "favorite": true
     },
     {
       "title": "Stuck On You",
       "artist": "Lionel Richie",
       "genre": "R&B/Soul",
-      "decade": "1980s"
+      "decade": "1980s",
+      "favorite": true
     },
     {
       "title": "Summer Breeze",
@@ -2994,7 +3023,8 @@
       "title": "Tennessee Whiskey",
       "artist": "Chris Stapleton",
       "genre": "Country",
-      "decade": "2010s"
+      "decade": "2010s",
+      "favorite": true
     },
     {
       "title": "Thank You for Being a Friend",
@@ -3054,7 +3084,8 @@
       "title": "The Joker",
       "artist": "Steve Miller Band",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "The Keeper of the Stars",
@@ -3222,7 +3253,8 @@
       "title": "Tupelo Honey",
       "artist": "Van Morrison",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Umbrella",
@@ -3270,7 +3302,8 @@
       "title": "Wagon Wheel",
       "artist": "Darius Rucker",
       "genre": "Country",
-      "decade": "2010s"
+      "decade": "2010s",
+      "favorite": true
     },
     {
       "title": "Wake Me Up Before You Go-Go",
@@ -3504,7 +3537,8 @@
       "title": "You Are the Sunshine of My Life",
       "artist": "Stevie Wonder",
       "genre": "R&B/Soul",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "You Don't Know Me",
@@ -3522,7 +3556,8 @@
       "title": "You Make Me Feel Like Dancing",
       "artist": "Leo Sayer",
       "genre": "Rock",
-      "decade": "1970s"
+      "decade": "1970s",
+      "favorite": true
     },
     {
       "title": "Young Forever",
@@ -3567,7 +3602,44 @@
       "decade": "1990s"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "J’s Dueling Pianos at Gaylord Texan",
+      "start": "2026-11-14",
+      "end": "",
+      "venue": "Gaylord Texan",
+      "location": "",
+      "type": "Dueling pianos",
+      "time": "Time to be announced",
+      "timezone": "Venue local time",
+      "url": "",
+      "notes": "Contact Nash for attendance details."
+    },
+    {
+      "title": "Cruise contract — tentative",
+      "start": "2026-11-19",
+      "end": "",
+      "venue": "Ship to be confirmed",
+      "location": "",
+      "type": "Tentative cruise start",
+      "time": "",
+      "timezone": "Ship local time",
+      "url": "",
+      "notes": "Tentative start date. Ship and end date are not yet confirmed. This entry marks the proposed start, not the full contract duration."
+    },
+    {
+      "title": "MSC Seascape cruise contract",
+      "start": "2026-12-06",
+      "end": "2027-01-17",
+      "venue": "MSC Seascape",
+      "location": "",
+      "type": "Cruise contract",
+      "time": "Performance schedule to be announced",
+      "timezone": "Ship local time",
+      "url": "",
+      "notes": "Cruise contract dates. Sailing and onboard access are required; confirm individual performance times onboard."
+    }
+  ],
   "zellePhone": "254-537-3870",
   "generalEmail": "nash@nashmusic.org"
 }

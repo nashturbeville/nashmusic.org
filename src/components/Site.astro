@@ -1,21 +1,41 @@
 ---
 import '../styles/site.css';
+import content from '../../public/content.json';
+const path=Astro.url.pathname.replace(/\/$/,'')||'/';
+const metadata={
+ '/':['Singing Pianist & Dueling Pianist','Live solo singing piano and dueling pianos with Nash Turbeville. Explore the show, repertoire, and booking inquiries.'],
+ '/requests':['Request a Song & Tip Nash','Browse Nash Turbeville’s repertoire by artist, genre, and decade. Text a song request and leave an optional tip.'],
+ '/booking':['Book Nash | Performances & EPK','Book Nash Turbeville for solo singing piano or dueling pianos. Explore performance experience, repertoire, and private teaching.'],
+ '/calendar':['Upcoming Shows & Cruise Contracts','Find announced shows and cruise contracts for Nash Turbeville, or inquire about a performance date.'],
+ '/contact':['Contact & Booking Inquiries','Contact Nash Turbeville for solo performances, dueling pianos, or private music teaching.'],
+ '/thanks':['Your Song Request','Return to your song request and send it to Nash.'],
+ '/studio':['Content Workspace','Manage NashMusic website content.']
+};
+const [title,description]=metadata[path]||metadata['/'];
+const canonical='https://nashmusic.org'+(path==='/'?'/':path+'/');
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Nash Turbeville | Singing Pianist & Dueling Pianist</title>
-  <meta name="description" content="Live piano, singing, and dueling pianos with Nash Turbeville. Request a song, leave a tip, find upcoming shows, or book a performance."/>
+  <title>{title} | Nash Turbeville</title>
+  <meta name="description" content={description}/>
+  <link rel="canonical" href={canonical}/>
+  <meta property="og:title" content={`${title} | Nash Turbeville`}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:type" content="website"/>
+  {content.portrait && <meta property="og:image" content={new URL(content.portrait,'https://nashmusic.org').href}/>}
+  {['/studio','/thanks'].includes(path) && <meta name="robots" content="noindex, nofollow"/>}
   <meta name="theme-color" content="#171b19"/>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header><a class="brand" href="/" data-nav><span class="brand-mark">N</span><span>NASH<span class="brand-small">TURBEVILLE</span></span></a><nav aria-label="Main navigation"><a href="/" data-nav>Home</a><a href="/requests" data-nav>Request a Song</a><a href="/booking" data-nav>Booking & EPK</a><a href="/calendar" data-nav>Calendar</a><a href="/contact" data-nav>Contact Me</a></nav><a class="header-cta" href="/requests" data-nav>Make it your song ↗</a></header>
-<main id="main" tabindex="-1"><p class="loading">Getting the music ready…</p></main>
+<main id="main" tabindex="-1"><section class="section"><p class="eyebrow">NASH TURBEVILLE / LIVE MUSIC</p><h1>{title}</h1><p class="lead">{description}</p>
+{path==='/requests' ? <><p>Choose from {content.songs.length} songs. Tips are optional.</p><div class="actions"><a class="button primary" href={`sms:${content.phone}`}>Text a song request</a><a class="button outline" href={content.stripeUrl}>Apple Pay / Card</a><a class="button outline" href={content.venmoUrl}>Venmo</a><a class="button outline" href={content.cashAppUrl}>Cash App</a></div><details><summary>Browse the repertoire</summary><ul>{content.songs.map(song=><li>{song.title} — {song.artist} · {song.genre} · {song.decade}</li>)}</ul></details></> : <><p>{content.bio}</p><div class="actions"><a class="button primary" href={`mailto:${content.bookingEmail}`}>Email about a booking</a><a class="button outline" href="/requests/">Request a song</a></div>{path==='/contact' && <p>General: <a href={`mailto:${content.generalEmail}`}>{content.generalEmail}</a> · Teaching: <a href={`mailto:${content.teachingEmail}`}>{content.teachingEmail}</a></p>}{path==='/calendar' && <div>{content.events.length?content.events.map(event=><p>{event.start} — {event.title}</p>):<p>Dates will be posted when announced. Contact Nash to check availability.</p>}</div>}</>}
+<noscript><p>Interactive filters require JavaScript. The links above remain available.</p></noscript></section></main>
+<script id="site-content" type="application/json" set:html={JSON.stringify(content).replace(/</g,'\\u003c')}></script>
 <footer><a class="footer-brand" href="/" data-nav>NASH TURBEVILLE</a><p>Singing pianist. Dueling pianist. Live music, shared.</p><div><a href="/booking" data-nav>Let's make a night of it ↗</a><span>© <span id="year"></span> Nash Turbeville</span></div></footer>
-<dialog id="request-dialog" aria-labelledby="request-title"><button class="close" aria-label="Close request">×</button><p class="eyebrow">YOUR SONG. YOUR MOMENT.</p><h2 id="request-title">Make a request</h2><form id="request-form"><label>Song<input name="song" required maxlength="160" placeholder="Song title — artist"/></label><label>Dedication <span class="muted">(optional)</span><input name="dedication" maxlength="200" placeholder="A name, a celebration, a little context…"/></label><label>Your name <span class="muted">(optional)</span><input name="name" maxlength="60" autocomplete="given-name"/></label><div class="tip-label">Leave a little love <span class="muted">Tips are optional</span></div><div class="amounts"><button type="button" data-amount="5">$5</button><button type="button" data-amount="10" class="selected">$10</button><button type="button" data-amount="20">$20</button><label class="custom-amount"><span>$</span><input name="amount" type="number" value="10" min="1" max="500" step="0.01" aria-label="Custom tip in dollars"/></label></div><button class="button primary full" type="submit">Continue to request & tip →</button><p class="fine">Requests are welcome; a tip doesn’t guarantee a song or a place in the queue.</p></form><div id="payment-step" hidden></div></dialog>
+<dialog id="request-dialog" aria-labelledby="request-title"><button class="close" aria-label="Close request">×</button><p class="eyebrow">YOUR SONG. YOUR MOMENT.</p><h2 id="request-title">Make a request</h2><form id="request-form"><label>Song<input name="song" required maxlength="160" placeholder="Song title — artist"/></label><label>Dedication <span class="muted">(optional)</span><input name="dedication" maxlength="200" placeholder="A name, a celebration, a little context…"/></label><label>Your name <span class="muted">(optional)</span><input name="name" maxlength="60" autocomplete="given-name"/></label><button class="button primary full" type="submit">Request & tipping options →</button><p class="fine">No tip required. Choose to text your request or add a tip on the next screen.</p><p class="fine">Requests are welcome; a tip doesn’t guarantee a song or a place in the queue.</p></form><div id="payment-step" hidden></div></dialog>
 <div class="toast" role="status" id="toast"></div>
 <script src="../scripts/site.js"></script>
 </body></html>

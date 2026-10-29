@@ -28,3 +28,7 @@ test('user clarified songs and both explicitly listed Gravity and Hello versions
     assert.ok(songs.some(s=>s.title===title&&s.artist===artist),`${title} / ${artist}`);
   }
 });
+test('partial artist search includes collaborations and favorites are explicit',()=>{
+ const elton=filterSongs(songs,{artist:'elton'});assert.ok(elton.some(s=>s.artist==='Elton John & Kiki Dee'));
+ const favorites=filterSongs(songs,{favoritesOnly:true});assert.ok(favorites.length>0&&favorites.length<songs.length);assert.ok(favorites.every(s=>s.favorite===true));
+});

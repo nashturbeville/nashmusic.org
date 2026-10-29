@@ -44,7 +44,15 @@ End dates are inclusive. Omit `end` for a single show. Only include public sched
 - A Stripe Payment Link for the simplest Apple Pay/card option, or a connected Stripe account for integrated checkout.
 - Repertoire, performance links, photos, public show dates, teaching background, and optional EPK PDF.
 
-The contact form prepares an email in the visitor's email app; they must press Send. It is not a server-delivered email form. Your mailbox must already exist. Teaching is a subsection of Booking & EPK and Contact Me; the old Harmonic Home address redirects there.
+The contact form sends through Cloudflare when the production contact settings below are present. Otherwise it clearly opens a prepared email in the visitor’s email app; the visitor must press Send. Your mailbox must already exist. Teaching is a subsection of Booking & EPK and Contact Me; the old Harmonic Home address redirects there.
+
+## Direct contact delivery
+
+In Cloudflare Pages production settings, bind a Workers KV namespace as `CONTACT_LIMITS`, set `CF_ACCOUNT_ID`, and add `EMAIL_SEND_TOKEN` as an encrypted secret with Cloudflare Email Sending permission. Enter the credential privately in Cloudflare, never in chat or the repository. Redeploy after settings change. `/api/config` reports whether configuration is present, not a delivery guarantee; test delivery separately.
+
+Booking inquiries go to booking@nashmusic.org, teaching to lessons@nashmusic.org, and general inquiries to nash@nashmusic.org. Reply-To uses the visitor’s email. The endpoint validates inputs, checks same origin, includes a honeypot, and applies a best-effort five-per-hour IP limit. It does not store inquiry contents.
+
+The printable `/epk` page uses the same public content, including optional portrait, videos, travel availability, and equipment. Supply verified details before adding them.
 
 ## External QR codes
 
@@ -63,6 +71,8 @@ The texting button opens the visitor's messaging app with the request prepared. 
 
 ## Optional request desk and SMS notifications
 
+The current public request flow uses text messages and standalone payment links; it does not submit to the optional request desk. The following backend facilities are retained for a future integration and require additional frontend integration and testing before use.
+
 Create a Cloudflare Workers KV namespace and bind it to the Pages project as `REQUESTS`. Add an encrypted, strong `ADMIN_KEY` in Pages environment settings. Redeploy. Open `/studio`, enter the admin key, and load the request desk. Requests expire after 30 days. KV rate limiting and duplicate suppression are best effort, not transactional guarantees.
 
 For verified Stripe payment labels, add a Stripe webhook endpoint at `https://nashmusic.org/api/stripe-webhook`, listening for `checkout.session.completed` and `checkout.session.async_payment_succeeded`. Save its signing secret as encrypted `STRIPE_WEBHOOK_SECRET` in Cloudflare, then redeploy. Configure KV before enabling the webhook. Test with Stripe test-mode credentials and events before using live keys. A success redirect alone never marks a request paid.
@@ -71,6 +81,6 @@ Optional automated SMS alerts require your own activated Twilio service and any 
 
 ## Development and deployment
 
-Install with `pnpm install`, run `pnpm dev`, test with `node --test tests/api.test.js`, and build with `pnpm build`. Cloudflare Pages uses build command `pnpm build`, output directory `dist`, and production branch `main`. The root `functions/` directory contains Pages Functions. Astro preview serves the static site only; API checks require the Cloudflare environment.
+Install with `pnpm install`, run `pnpm dev`, test with `node --test tests/*.test.js`, and build with `pnpm build`. Cloudflare Pages uses build command `pnpm build`, output directory `dist`, and production branch `main`. The root `functions/` directory contains Pages Functions. Astro preview serves the static site only; API checks require the Cloudflare environment.
 
 Connect `nashmusic.org` in the Pages project's Custom domains panel. Preserve existing email-related DNS records. Keep a previous deployment available in Cloudflare for rollback.
