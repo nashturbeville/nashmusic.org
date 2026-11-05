@@ -4642,6 +4642,18 @@
   ],
   "events": [
     {
+      "title": "Solo show at Fogo de Chão",
+      "start": "2026-11-13",
+      "end": "",
+      "venue": "Fogo de Chão",
+      "location": "Irving, TX",
+      "type": "Solo singing pianist",
+      "time": "6:00 PM–9:00 PM",
+      "timezone": "Central Time",
+      "url": "",
+      "notes": ""
+    },
+    {
       "title": "J’s Dueling Pianos at Gaylord Texan",
       "start": "2026-11-14",
       "end": "",
@@ -4654,28 +4666,28 @@
       "notes": "Contact Nash for attendance details."
     },
     {
-      "title": "Cruise contract — tentative",
-      "start": "2026-11-19",
-      "end": "",
-      "venue": "Ship to be confirmed",
+      "title": "MSC Seaside — onboard dueling pianist",
+      "start": "2026-11-20",
+      "end": "2026-11-30",
+      "venue": "MSC Seaside",
       "location": "",
-      "type": "Tentative cruise start",
-      "time": "",
+      "type": "Cruise contract · Dueling pianos",
+      "time": "Performance schedule to be announced",
       "timezone": "Ship local time",
       "url": "",
-      "notes": "Tentative start date. Ship and end date are not yet confirmed. This entry marks the proposed start, not the full contract duration."
+      "notes": "Nash performs as a dueling pianist on board. Sailing and onboard access are required; confirm individual performance times onboard."
     },
     {
-      "title": "MSC Seascape cruise contract",
+      "title": "MSC Seascape — onboard dueling pianist",
       "start": "2026-12-06",
       "end": "2027-01-17",
       "venue": "MSC Seascape",
       "location": "",
-      "type": "Cruise contract",
+      "type": "Cruise contract · Dueling pianos",
       "time": "Performance schedule to be announced",
       "timezone": "Ship local time",
       "url": "",
-      "notes": "Cruise contract dates. Sailing and onboard access are required; confirm individual performance times onboard."
+      "notes": "Nash performs as a dueling pianist on board. Sailing and onboard access are required; confirm individual performance times onboard."
     }
   ],
   "zellePhone": "254-537-3870",
