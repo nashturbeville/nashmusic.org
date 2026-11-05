@@ -1,5 +1,5 @@
 import {json,body,sameOrigin} from './_lib.js';
-const recipients={'Solo performance':'booking@nashmusic.org','Dueling pianos':'booking@nashmusic.org','Private teaching':'lessons@nashmusic.org','Other':'nash@nashmusic.org'};
+const recipients={'Piano & drums duo':'booking@nashmusic.org','Trio, quartet or custom group':'booking@nashmusic.org','Solo performance':'booking@nashmusic.org','Dueling pianos':'booking@nashmusic.org','Private teaching':'lessons@nashmusic.org','Other':'nash@nashmusic.org'};
 export const contactReady=env=>!!(env.EMAIL_SEND_TOKEN&&env.CF_ACCOUNT_ID&&env.CONTACT_LIMITS);
 export function validateInquiry(data){
  if(!data||typeof data!=='object'||!Object.hasOwn(recipients,data.type))throw Error('Choose an inquiry type.');
