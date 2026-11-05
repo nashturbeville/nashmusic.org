@@ -69,6 +69,12 @@
       "decade": "1980s"
     },
     {
+      "title": "A Holly Jolly Christmas",
+      "artist": "Burl Ives",
+      "genre": "Christmas & Holiday",
+      "decade": "1960s"
+    },
+    {
       "title": "A Horse With No Name",
       "artist": "America",
       "genre": "Rock",
@@ -109,6 +115,12 @@
       "artist": "Dean Martin",
       "genre": "Jazz & Standards",
       "decade": "1960s"
+    },
+    {
+      "title": "Airplanes",
+      "artist": "B.o.B feat. Hayley Williams",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
     },
     {
       "title": "All My Life",
@@ -196,12 +208,6 @@
       "decade": "1970s"
     },
     {
-      "title": "A Milli",
-      "artist": "Lil Wayne",
-      "genre": "Hip-Hop/Rap",
-      "decade": "2000s"
-    },
-    {
       "title": "And So It Goes",
       "artist": "Billy Joel",
       "genre": "Pop",
@@ -269,6 +275,12 @@
       "favorite": true
     },
     {
+      "title": "As Long as You Love Me",
+      "artist": "Backstreet Boys",
+      "genre": "Pop",
+      "decade": "1990s"
+    },
+    {
       "title": "A Song for You",
       "artist": "Donny Hathaway",
       "genre": "R&B/Soul",
@@ -297,6 +309,12 @@
       "artist": "Billy Joel",
       "genre": "Pop",
       "decade": "1980s"
+    },
+    {
+      "title": "Baby, It's Cold Outside",
+      "artist": "Dean Martin",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
     },
     {
       "title": "...Baby One More Time",
@@ -391,6 +409,12 @@
       "decade": "1920s"
     },
     {
+      "title": "Black and Gold",
+      "artist": "Sam Sparro",
+      "genre": "Pop",
+      "decade": "2000s"
+    },
+    {
       "title": "Blackbird",
       "artist": "The Beatles",
       "genre": "Rock",
@@ -421,6 +445,12 @@
       "decade": "2000s"
     },
     {
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
       "title": "Blowin' In the Wind",
       "artist": "Bob Dylan",
       "genre": "Rock",
@@ -437,6 +467,12 @@
       "artist": "Linda Ronstadt",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "Blue Christmas",
+      "artist": "Elvis Presley",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
     },
     {
       "title": "Blue Moon",
@@ -548,12 +584,6 @@
       "decade": "2010s"
     },
     {
-      "title": "California Love",
-      "artist": "2Pac",
-      "genre": "Hip-Hop/Rap",
-      "decade": "1990s"
-    },
-    {
       "title": "Candle In the Wind",
       "artist": "Elton John",
       "genre": "Rock",
@@ -570,6 +600,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Can't Feel My Face",
+      "artist": "The Weeknd",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Can't Take My Eyes Off You",
@@ -614,6 +650,12 @@
       "decade": "1780s"
     },
     {
+      "title": "Chandelier",
+      "artist": "Sia",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
       "title": "Charlie, Last Name Wilson",
       "artist": "Charlie Wilson",
       "genre": "R&B/Soul",
@@ -636,6 +678,12 @@
       "artist": "Alan Jackson",
       "genre": "Country",
       "decade": "1990s"
+    },
+    {
+      "title": "Check It Out",
+      "artist": "will.i.am & Nicki Minaj",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Cheek To Cheek",
@@ -682,6 +730,12 @@
     {
       "title": "CoCo",
       "artist": "O.T. Genasis",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
+    },
+    {
+      "title": "Cocoa Butter Kisses",
+      "artist": "Chance the Rapper feat. Vic Mensa & Twista",
       "genre": "Hip-Hop/Rap",
       "decade": "2010s"
     },
@@ -771,6 +825,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Cups (When I'm Gone / The Cup Song)",
+      "artist": "Anna Kendrick",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
       "title": "Dancing In the Moonlight",
       "artist": "King Harvest",
       "genre": "Rock",
@@ -841,6 +901,12 @@
       "artist": "The Four Seasons",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "Deck the Halls",
+      "artist": "Traditional",
+      "genre": "Christmas & Holiday",
+      "decade": "Traditional"
     },
     {
       "title": "Delta Dawn",
@@ -1001,6 +1067,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Edelweiss",
+      "artist": "The Sound of Music",
+      "genre": "Broadway & Film",
+      "decade": "1950s"
+    },
+    {
       "title": "Eleanor Rigby",
       "artist": "The Beatles",
       "genre": "Rock",
@@ -1090,6 +1162,12 @@
       "artist": "Michael Bublé",
       "genre": "Pop",
       "decade": "2000s"
+    },
+    {
+      "title": "Feliz Navidad",
+      "artist": "José Feliciano",
+      "genre": "Christmas & Holiday",
+      "decade": "1970s"
     },
     {
       "title": "Fever",
@@ -1197,6 +1275,12 @@
       "decade": "2010s"
     },
     {
+      "title": "Frosty the Snowman",
+      "artist": "Gene Autry",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
+    },
+    {
       "title": "Funny How Time Slips Away",
       "artist": "Willie Nelson",
       "genre": "Country",
@@ -1220,12 +1304,6 @@
       "artist": "Oleta Adams",
       "genre": "R&B/Soul",
       "decade": "1990s"
-    },
-    {
-      "title": "Get Low",
-      "artist": "Lil Jon & The East Side Boyz",
-      "genre": "Hip-Hop/Rap",
-      "decade": "2000s"
     },
     {
       "title": "(Get Your Kicks On) Route 66",
@@ -1262,6 +1340,12 @@
       "artist": "James Blunt",
       "genre": "Pop",
       "decade": "2000s"
+    },
+    {
+      "title": "Good Riddance (Time of Your Life)",
+      "artist": "Green Day",
+      "genre": "Rock",
+      "decade": "1990s"
     },
     {
       "title": "Go Rest High on That Mountain",
@@ -1304,6 +1388,12 @@
       "artist": "Bruno Mars",
       "genre": "Pop",
       "decade": "2010s"
+    },
+    {
+      "title": "Grown-Up Christmas List",
+      "artist": "Amy Grant",
+      "genre": "Christmas & Holiday",
+      "decade": "1990s"
     },
     {
       "title": "Guadalajara",
@@ -1372,6 +1462,12 @@
       "decade": "1970s"
     },
     {
+      "title": "Have Yourself a Merry Little Christmas",
+      "artist": "Judy Garland",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
+    },
+    {
       "title": "Heartache Tonight",
       "artist": "Eagles",
       "genre": "Rock",
@@ -1382,6 +1478,12 @@
       "artist": "Hoagy Carmichael",
       "genre": "Jazz & Standards",
       "decade": "1930s"
+    },
+    {
+      "title": "Heartless",
+      "artist": "Kanye West",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2000s"
     },
     {
       "title": "Heaven",
@@ -1430,6 +1532,12 @@
       "artist": "Luther Vandross",
       "genre": "R&B/Soul",
       "decade": "1980s"
+    },
+    {
+      "title": "Here Comes Santa Claus",
+      "artist": "Gene Autry",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
     },
     {
       "title": "He Stopped Loving Her Today",
@@ -1502,6 +1610,12 @@
       "artist": "Eagles",
       "genre": "Rock",
       "decade": "1970s"
+    },
+    {
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
     },
     {
       "title": "Hound Dog",
@@ -1601,6 +1715,12 @@
       "decade": "2000s"
     },
     {
+      "title": "If I Die Young",
+      "artist": "The Band Perry",
+      "genre": "Country",
+      "decade": "2010s"
+    },
+    {
       "title": "If You Could Read My Mind",
       "artist": "Gordon Lightfoot",
       "genre": "Folk",
@@ -1648,6 +1768,12 @@
       "artist": "Tim McGraw",
       "genre": "Country",
       "decade": "1990s"
+    },
+    {
+      "title": "I'll Be Home for Christmas",
+      "artist": "Bing Crosby",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
     },
     {
       "title": "I'll Be Seeing You",
@@ -1794,6 +1920,12 @@
       "decade": "1950s"
     },
     {
+      "title": "It's Beginning to Look a Lot Like Christmas",
+      "artist": "Bing Crosby",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
+    },
+    {
       "title": "It's Five O'Clock Somewhere (with Jimmy Buffett)",
       "artist": "Alan Jackson",
       "genre": "Country",
@@ -1804,6 +1936,12 @@
       "artist": "Billy Joel",
       "genre": "Rock",
       "decade": "1980s"
+    },
+    {
+      "title": "It's the Most Wonderful Time of the Year",
+      "artist": "Andy Williams",
+      "genre": "Christmas & Holiday",
+      "decade": "1960s"
     },
     {
       "title": "It Won't Be Long",
@@ -1872,6 +2010,12 @@
       "decade": "2010s"
     },
     {
+      "title": "Jingle Bells",
+      "artist": "James Lord Pierpont",
+      "genre": "Christmas & Holiday",
+      "decade": "1850s"
+    },
+    {
       "title": "Joey",
       "artist": "Concrete Blonde",
       "genre": "Rock",
@@ -1888,6 +2032,12 @@
       "artist": "Ray LaMontagne",
       "genre": "Folk",
       "decade": "2000s"
+    },
+    {
+      "title": "Jolly Old St. Nicholas",
+      "artist": "Traditional",
+      "genre": "Christmas & Holiday",
+      "decade": "Traditional"
     },
     {
       "title": "Joy of My Life",
@@ -1957,6 +2107,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Lady Marmalade",
+      "artist": "Christina Aguilera, Lil' Kim, Mýa & Pink",
+      "genre": "Pop",
+      "decade": "2000s"
+    },
+    {
       "title": "Lake Shore Drive",
       "artist": "Aliotta Haynes Jeremiah",
       "genre": "Rock",
@@ -1973,6 +2129,12 @@
       "artist": "Floyd Cramer",
       "genre": "Country",
       "decade": "1960s"
+    },
+    {
+      "title": "Last Friday Night (T.G.I.F.)",
+      "artist": "Katy Perry",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Late for the Sky",
@@ -2023,6 +2185,12 @@
       "decade": "2010s"
     },
     {
+      "title": "Let It Snow! Let It Snow! Let It Snow!",
+      "artist": "Dean Martin",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
+    },
+    {
       "title": "Let Me Be Your Wings",
       "artist": "Thumbelina",
       "genre": "Broadway & Film",
@@ -2033,12 +2201,6 @@
       "artist": "Marvin Gaye",
       "genre": "R&B/Soul",
       "decade": "1970s"
-    },
-    {
-      "title": "Let's Get It Started",
-      "artist": "Black Eyed Peas",
-      "genre": "Hip-Hop/Rap",
-      "decade": "2000s"
     },
     {
       "title": "Let's Stay Together",
@@ -2245,6 +2407,12 @@
       "decade": "2020s"
     },
     {
+      "title": "Magic",
+      "artist": "B.o.B feat. Rivers Cuomo",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
+    },
+    {
       "title": "Make It With You",
       "artist": "Bread",
       "genre": "Rock",
@@ -2301,6 +2469,18 @@
       "favorite": true
     },
     {
+      "title": "Marry You",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
+      "title": "Mary, Did You Know?",
+      "artist": "Michael English",
+      "genre": "Christmas & Holiday",
+      "decade": "1990s"
+    },
+    {
       "title": "Me and Mrs. Jones",
       "artist": "Michael Bublé",
       "genre": "Pop",
@@ -2317,6 +2497,12 @@
       "artist": "The Flintstones",
       "genre": "Broadway & Film",
       "decade": "1960s"
+    },
+    {
+      "title": "Merry Christmas Darling",
+      "artist": "Carpenters",
+      "genre": "Christmas & Holiday",
+      "decade": "1970s"
     },
     {
       "title": "Midnight at the Oasis",
@@ -2433,6 +2619,12 @@
       "artist": "Stevie Wonder",
       "genre": "Pop",
       "decade": "1960s"
+    },
+    {
+      "title": "My Favorite Things",
+      "artist": "The Sound of Music",
+      "genre": "Broadway & Film",
+      "decade": "1950s"
     },
     {
       "title": "My Foolish Heart",
@@ -2599,6 +2791,12 @@
       "decade": "2000s"
     },
     {
+      "title": "O Christmas Tree (O Tannenbaum — A Charlie Brown Christmas)",
+      "artist": "Vince Guaraldi Trio",
+      "genre": "Christmas & Holiday",
+      "decade": "1960s"
+    },
+    {
       "title": "Oh! Darling",
       "artist": "The Beatles",
       "genre": "Rock",
@@ -2609,6 +2807,12 @@
       "artist": "The Chi-Lites",
       "genre": "R&B/Soul",
       "decade": "1970s"
+    },
+    {
+      "title": "O Holy Night",
+      "artist": "Adolphe Adam",
+      "genre": "Christmas & Holiday",
+      "decade": "1840s"
     },
     {
       "title": "Oh, Pretty Woman",
@@ -2744,6 +2948,12 @@
       "decade": "2000s"
     },
     {
+      "title": "Party Rock Anthem",
+      "artist": "LMFAO feat. Lauren Bennett & GoonRock",
+      "genre": "Dance",
+      "decade": "2010s"
+    },
+    {
       "title": "Peaceful Easy Feeling",
       "artist": "Eagles",
       "genre": "Rock",
@@ -2798,6 +3008,12 @@
       "decade": "1940s"
     },
     {
+      "title": "Please Come Home for Christmas",
+      "artist": "Eagles",
+      "genre": "Christmas & Holiday",
+      "decade": "1970s"
+    },
+    {
       "title": "Please Mr. Postman",
       "artist": "The Marvelettes",
       "genre": "R&B/Soul",
@@ -2832,6 +3048,12 @@
       "artist": "Frédéric Chopin",
       "genre": "Classical",
       "decade": "1830s"
+    },
+    {
+      "title": "Price Tag",
+      "artist": "Jessie J feat. B.o.B",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Private Eyes",
@@ -2961,6 +3183,12 @@
       "decade": "1990s"
     },
     {
+      "title": "Right Round",
+      "artist": "Flo Rida feat. Kesha",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2000s"
+    },
+    {
       "title": "Rikki Don't Lose That Number",
       "artist": "Steely Dan",
       "genre": "Rock",
@@ -2983,6 +3211,12 @@
       "artist": "Elton John",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "Rockin' Around the Christmas Tree",
+      "artist": "Brenda Lee",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
     },
     {
       "title": "Rockin' Robin",
@@ -3025,6 +3259,12 @@
       "artist": "The Drifters",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "Rudolph the Red-Nosed Reindeer",
+      "artist": "Gene Autry",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
     },
     {
       "title": "Run Away to Mars",
@@ -3079,13 +3319,25 @@
     {
       "title": "Same Old Lang Syne",
       "artist": "Dan Fogelberg",
-      "genre": "Pop",
+      "genre": "Christmas & Holiday",
       "decade": "1980s"
+    },
+    {
+      "title": "Santa Baby",
+      "artist": "Eartha Kitt",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
+    },
+    {
+      "title": "Santa Claus Is Coming to Town",
+      "artist": "Frank Sinatra",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
     },
     {
       "title": "Santa's Coming for Us",
       "artist": "Sia",
-      "genre": "Pop",
+      "genre": "Christmas & Holiday",
       "decade": "2010s"
     },
     {
@@ -3222,6 +3474,12 @@
       "decade": "1970s"
     },
     {
+      "title": "Silver Bells",
+      "artist": "Bing Crosby & Carol Richards",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
+    },
+    {
       "title": "Simple Man",
       "artist": "Lynyrd Skynyrd",
       "genre": "Rock",
@@ -3261,6 +3519,12 @@
       "title": "Skylark",
       "artist": "Ella Fitzgerald",
       "genre": "Jazz & Standards",
+      "decade": "1960s"
+    },
+    {
+      "title": "Sleigh Ride",
+      "artist": "The Ronettes",
+      "genre": "Christmas & Holiday",
       "decade": "1960s"
     },
     {
@@ -3334,6 +3598,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Somewhere Only We Know",
+      "artist": "Keane",
+      "genre": "Rock",
+      "decade": "2000s"
     },
     {
       "title": "Sorry Seems to Be the Hardest Word",
@@ -3456,6 +3726,12 @@
       "artist": "Frank Sinatra",
       "genre": "Jazz & Standards",
       "decade": "1960s"
+    },
+    {
+      "title": "Sunday Candy",
+      "artist": "Donnie Trumpet & The Social Experiment (Chance the Rapper)",
+      "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
     },
     {
       "title": "Sunday Mornin' Comin' Down",
@@ -3611,7 +3887,7 @@
     {
       "title": "That Spirit of Christmas",
       "artist": "Ray Charles",
-      "genre": "R&B/Soul",
+      "genre": "Christmas & Holiday",
       "decade": "1980s"
     },
     {
@@ -3631,6 +3907,18 @@
       "artist": "Sammy Davis Jr.",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "The Christmas Song",
+      "artist": "Nat King Cole",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
+    },
+    {
+      "title": "The Christmas Waltz",
+      "artist": "Frank Sinatra",
+      "genre": "Christmas & Holiday",
+      "decade": "1950s"
     },
     {
       "title": "The Devil Went Down to Georgia",
@@ -3706,6 +3994,12 @@
       "decade": "1980s"
     },
     {
+      "title": "The Middle",
+      "artist": "Jimmy Eat World",
+      "genre": "Rock",
+      "decade": "2000s"
+    },
+    {
       "title": "The Nearness of You",
       "artist": "Ella Fitzgerald & Louis Armstrong",
       "genre": "Jazz & Standards",
@@ -3772,6 +4066,12 @@
       "decade": "2010s"
     },
     {
+      "title": "This Christmas",
+      "artist": "Donny Hathaway",
+      "genre": "Christmas & Holiday",
+      "decade": "1970s"
+    },
+    {
       "title": "This Guy's in Love with You",
       "artist": "Herb Alpert & The Tijuana Brass",
       "genre": "Jazz & Standards",
@@ -3814,6 +4114,12 @@
       "decade": "2000s"
     },
     {
+      "title": "Timber",
+      "artist": "Pitbull feat. Kesha",
+      "genre": "Dance",
+      "decade": "2010s"
+    },
+    {
       "title": "Time to Say Goodbye (Con Te Partirò)",
       "artist": "Sarah Brightman & Andrea Bocelli",
       "genre": "Classical",
@@ -3826,10 +4132,22 @@
       "decade": "1970s"
     },
     {
+      "title": "Titanium",
+      "artist": "David Guetta feat. Sia",
+      "genre": "Dance",
+      "decade": "2010s"
+    },
+    {
       "title": "Toes",
       "artist": "Zac Brown Band",
       "genre": "Country",
       "decade": "2000s"
+    },
+    {
+      "title": "Total Eclipse of the Heart",
+      "artist": "Bonnie Tyler",
+      "genre": "Pop",
+      "decade": "1980s"
     },
     {
       "title": "Toxic",
@@ -3897,6 +4215,12 @@
       "artist": "Morgan Wallen",
       "genre": "Country",
       "decade": "2010s"
+    },
+    {
+      "title": "Up on the Housetop",
+      "artist": "Traditional",
+      "genre": "Christmas & Holiday",
+      "decade": "1860s"
     },
     {
       "title": "Uptown Girl",
@@ -3970,6 +4294,12 @@
       "artist": "Morgan Wallen",
       "genre": "Country",
       "decade": "2020s"
+    },
+    {
+      "title": "Waving Through a Window",
+      "artist": "Dear Evan Hansen (Ben Platt)",
+      "genre": "Broadway & Film",
+      "decade": "2010s"
     },
     {
       "title": "Welcome Back",
@@ -4086,6 +4416,12 @@
       "decade": "2000s"
     },
     {
+      "title": "White Christmas",
+      "artist": "Bing Crosby",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
+    },
+    {
       "title": "Wichita Lineman",
       "artist": "Glen Campbell",
       "genre": "Country",
@@ -4126,6 +4462,12 @@
       "artist": "The Association",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Winter Wonderland",
+      "artist": "Bing Crosby",
+      "genre": "Christmas & Holiday",
+      "decade": "1940s"
     },
     {
       "title": "Witchcraft",
