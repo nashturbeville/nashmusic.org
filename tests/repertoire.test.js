@@ -8,7 +8,7 @@ test('import has complete metadata and no duplicate title/artist pairs',()=>{
   const pairs=new Set();
   for(const s of songs){
     for(const k of ['title','artist','genre','decade'])assert.ok(s[k]?.trim(),`${s.title}: missing ${k}`);
-    assert.match(s.decade,/^(18|19|20)\d0s$/);
+    assert.match(s.decade,/^(?:(17|18|19|20)\d0s|Traditional)$/);
     const pair=(s.title+'|'+s.artist).normalize('NFD').toLowerCase().replace(/[\u0300-\u036f\W_]/g,'');
     assert.ok(!pairs.has(pair),`Duplicate: ${s.title} / ${s.artist}`);pairs.add(pair);
   }

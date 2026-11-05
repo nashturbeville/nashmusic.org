@@ -15,10 +15,22 @@
   "videos": [],
   "songs": [
     {
+      "title": "1973",
+      "artist": "James Blunt",
+      "genre": "Pop",
+      "decade": "2000s"
+    },
+    {
       "title": "ABC",
       "artist": "Jackson 5",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "A Bird in a Gilded Cage",
+      "artist": "Harry von Tilzer",
+      "genre": "Jazz & Standards",
+      "decade": "1900s"
     },
     {
       "title": "A Change Is Gonna Come",
@@ -99,6 +111,12 @@
       "decade": "1960s"
     },
     {
+      "title": "All My Life",
+      "artist": "Linda Ronstadt",
+      "genre": "Pop",
+      "decade": "1980s"
+    },
+    {
       "title": "All My Loving",
       "artist": "The Beatles",
       "genre": "Rock",
@@ -124,6 +142,12 @@
       "decade": "2010s"
     },
     {
+      "title": "All the Pretty Little Horses",
+      "artist": "Traditional",
+      "genre": "Folk",
+      "decade": "Traditional"
+    },
+    {
       "title": "All the Way",
       "artist": "Frank Sinatra",
       "genre": "Jazz & Standards",
@@ -146,6 +170,12 @@
       "artist": "Willie Nelson",
       "genre": "Country",
       "decade": "1980s"
+    },
+    {
+      "title": "Amado Mio",
+      "artist": "Pink Martini",
+      "genre": "Jazz & Standards",
+      "decade": "1990s"
     },
     {
       "title": "Amarillo By Morning",
@@ -184,9 +214,21 @@
       "decade": "1950s"
     },
     {
+      "title": "Angel Eyes",
+      "artist": "The Jeff Healey Band",
+      "genre": "Rock",
+      "decade": "1980s"
+    },
+    {
       "title": "Angel from Montgomery",
       "artist": "Bonnie Raitt",
       "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
+      "title": "Angel from Montgomery",
+      "artist": "John Prine",
+      "genre": "Folk",
       "decade": "1970s"
     },
     {
@@ -210,6 +252,12 @@
     {
       "title": "Anti-Hero",
       "artist": "Taylor Swift",
+      "genre": "Pop",
+      "decade": "2020s"
+    },
+    {
+      "title": "Anyone",
+      "artist": "Demi Lovato",
       "genre": "Pop",
       "decade": "2020s"
     },
@@ -319,7 +367,7 @@
     },
     {
       "title": "Best Part",
-      "artist": "H.E.R.",
+      "artist": "Daniel Caesar feat. H.E.R.",
       "genre": "R&B/Soul",
       "decade": "2010s"
     },
@@ -337,10 +385,22 @@
       "decade": "2000s"
     },
     {
+      "title": "Big Rock Candy Mountain",
+      "artist": "Harry McClintock",
+      "genre": "Folk",
+      "decade": "1920s"
+    },
+    {
       "title": "Blackbird",
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Black Cow",
+      "artist": "Steely Dan",
+      "genre": "Rock",
+      "decade": "1970s"
     },
     {
       "title": "Black Hole Sun",
@@ -548,10 +608,28 @@
       "decade": "1960s"
     },
     {
+      "title": "Caro Mio Ben",
+      "artist": "Tommaso Giordani",
+      "genre": "Classical",
+      "decade": "1780s"
+    },
+    {
+      "title": "Charlie, Last Name Wilson",
+      "artist": "Charlie Wilson",
+      "genre": "R&B/Soul",
+      "decade": "2000s"
+    },
+    {
       "title": "Chasing Cars",
       "artist": "Snow Patrol",
       "genre": "Rock",
       "decade": "2000s"
+    },
+    {
+      "title": "Chasin' You",
+      "artist": "Morgan Wallen",
+      "genre": "Country",
+      "decade": "2010s"
     },
     {
       "title": "Chattahoochee",
@@ -569,6 +647,18 @@
       "title": "Chicken Fried",
       "artist": "Zac Brown Band",
       "genre": "Country",
+      "decade": "2000s"
+    },
+    {
+      "title": "City Lights",
+      "artist": "Ray Price",
+      "genre": "Country",
+      "decade": "1950s"
+    },
+    {
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "genre": "Rock",
       "decade": "2000s"
     },
     {
@@ -645,6 +735,12 @@
       "decade": "1960s"
     },
     {
+      "title": "Crazy",
+      "artist": "Seal",
+      "genre": "Pop",
+      "decade": "1990s"
+    },
+    {
       "title": "Crazy Little Thing Called Love",
       "artist": "Queen",
       "genre": "Rock",
@@ -685,6 +781,12 @@
       "artist": "Martha Reeves & The Vandellas",
       "genre": "R&B/Soul",
       "decade": "1960s"
+    },
+    {
+      "title": "Dancing on My Own",
+      "artist": "Calum Scott",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Dancing On My Own",
@@ -893,6 +995,12 @@
       "favorite": true
     },
     {
+      "title": "Ebony and Ivory",
+      "artist": "Paul McCartney & Stevie Wonder",
+      "genre": "Pop",
+      "decade": "1980s"
+    },
+    {
       "title": "Eleanor Rigby",
       "artist": "The Beatles",
       "genre": "Rock",
@@ -972,6 +1080,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Feelin' Alright",
+      "artist": "Joe Cocker",
+      "genre": "Rock",
+      "decade": "1960s"
+    },
+    {
       "title": "Feeling Good",
       "artist": "Michael Bublé",
       "genre": "Pop",
@@ -1022,6 +1136,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Forever Love",
+      "artist": "Reba McEntire",
+      "genre": "Country",
+      "decade": "1990s"
+    },
+    {
       "title": "For Good",
       "artist": "Wicked",
       "genre": "Broadway & Film",
@@ -1040,10 +1160,22 @@
       "decade": "1970s"
     },
     {
+      "title": "Fortunate Son",
+      "artist": "Creedence Clearwater Revival",
+      "genre": "Rock",
+      "decade": "1960s"
+    },
+    {
       "title": "For What It's Worth",
       "artist": "Buffalo Springfield",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Fountain of Sorrow",
+      "artist": "Jackson Browne",
+      "genre": "Rock",
+      "decade": "1970s"
     },
     {
       "title": "Free Fallin'",
@@ -1057,6 +1189,12 @@
       "genre": "Country",
       "decade": "1990s",
       "favorite": true
+    },
+    {
+      "title": "From the Ground Up",
+      "artist": "Dan + Shay",
+      "genre": "Country",
+      "decade": "2010s"
     },
     {
       "title": "Funny How Time Slips Away",
@@ -1100,6 +1238,12 @@
       "artist": "Little Big Town",
       "genre": "Country",
       "decade": "2010s"
+    },
+    {
+      "title": "God Whispered Your Name",
+      "artist": "Keith Urban",
+      "genre": "Country",
+      "decade": "2020s"
     },
     {
       "title": "Gold Digger",
@@ -1160,6 +1304,12 @@
       "artist": "Bruno Mars",
       "genre": "Pop",
       "decade": "2010s"
+    },
+    {
+      "title": "Guadalajara",
+      "artist": "Pepe Guízar",
+      "genre": "Latin",
+      "decade": "1930s"
     },
     {
       "title": "Hallelujah",
@@ -1258,6 +1408,18 @@
       "decade": "1970s"
     },
     {
+      "title": "Hello, It's Me",
+      "artist": "Todd Rundgren",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
+      "title": "Hello! Ma Baby",
+      "artist": "Joseph E. Howard",
+      "genre": "Jazz & Standards",
+      "decade": "1890s"
+    },
+    {
       "title": "Help Me Make It Through the Night",
       "artist": "Kris Kristofferson",
       "genre": "Country",
@@ -1312,6 +1474,12 @@
       "decade": "2000s"
     },
     {
+      "title": "Home",
+      "artist": "The Wiz",
+      "genre": "Broadway & Film",
+      "decade": "1970s"
+    },
+    {
       "title": "Home At Last",
       "artist": "Steely Dan",
       "genre": "Rock",
@@ -1361,10 +1529,28 @@
       "decade": "1950s"
     },
     {
+      "title": "How Much I Feel",
+      "artist": "Ambrosia",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
+      "title": "How's It Going to Be",
+      "artist": "Third Eye Blind",
+      "genre": "Rock",
+      "decade": "1990s"
+    },
+    {
       "title": "How Sweet It Is (To Be Loved By You)",
       "artist": "James Taylor",
       "genre": "Folk",
       "decade": "1970s"
+    },
+    {
+      "title": "Humble and Kind",
+      "artist": "Tim McGraw",
+      "genre": "Country",
+      "decade": "2010s"
     },
     {
       "title": "Hurt",
@@ -1385,6 +1571,24 @@
       "decade": "1990s"
     },
     {
+      "title": "I Can't Stop Loving You",
+      "artist": "Kem",
+      "genre": "R&B/Soul",
+      "decade": "2000s"
+    },
+    {
+      "title": "I'd Die Without You",
+      "artist": "P.M. Dawn",
+      "genre": "R&B/Soul",
+      "decade": "1990s"
+    },
+    {
+      "title": "I Don't Love You Anymore",
+      "artist": "Teddy Pendergrass",
+      "genre": "R&B/Soul",
+      "decade": "1970s"
+    },
+    {
       "title": "If",
       "artist": "Bread",
       "genre": "Pop",
@@ -1401,6 +1605,12 @@
       "artist": "Gordon Lightfoot",
       "genre": "Folk",
       "decade": "1970s"
+    },
+    {
+      "title": "If You Love Her",
+      "artist": "Forest Blakk",
+      "genre": "Pop",
+      "decade": "2020s"
     },
     {
       "title": "Ignition (Remix)",
@@ -1426,6 +1636,12 @@
       "artist": "Stevie Wonder",
       "genre": "R&B/Soul",
       "decade": "1980s"
+    },
+    {
+      "title": "I Know a Little",
+      "artist": "Lynyrd Skynyrd",
+      "genre": "Rock",
+      "decade": "1970s"
     },
     {
       "title": "I Like It, I Love It",
@@ -1464,9 +1680,21 @@
       "decade": "1970s"
     },
     {
+      "title": "I'm Going Down",
+      "artist": "Mary J. Blige",
+      "genre": "R&B/Soul",
+      "decade": "1990s"
+    },
+    {
       "title": "I'm Gonna Miss Her",
       "artist": "Brad Paisley",
       "genre": "Country",
+      "decade": "2000s"
+    },
+    {
+      "title": "I'm Here",
+      "artist": "The Color Purple",
+      "genre": "Broadway & Film",
       "decade": "2000s"
     },
     {
@@ -1488,6 +1716,12 @@
       "decade": "2000s"
     },
     {
+      "title": "I Need You",
+      "artist": "America",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
       "title": "In the End",
       "artist": "Linkin Park",
       "genre": "Rock",
@@ -1504,6 +1738,12 @@
       "artist": "Van Morrison",
       "genre": "Rock",
       "decade": "1970s"
+    },
+    {
+      "title": "Into the Unknown",
+      "artist": "Frozen II",
+      "genre": "Broadway & Film",
+      "decade": "2010s"
     },
     {
       "title": "I Put a Spell On You",
@@ -1632,10 +1872,28 @@
       "decade": "2010s"
     },
     {
+      "title": "Joey",
+      "artist": "Concrete Blonde",
+      "genre": "Rock",
+      "decade": "1990s"
+    },
+    {
       "title": "Jolene",
       "artist": "Dolly Parton",
       "genre": "Country",
       "decade": "1970s"
+    },
+    {
+      "title": "Jolene",
+      "artist": "Ray LaMontagne",
+      "genre": "Folk",
+      "decade": "2000s"
+    },
+    {
+      "title": "Joy of My Life",
+      "artist": "Chris Stapleton",
+      "genre": "Country",
+      "decade": "2020s"
     },
     {
       "title": "Joy to the World",
@@ -1660,6 +1918,12 @@
       "artist": "Bruno Mars",
       "genre": "Pop",
       "decade": "2010s"
+    },
+    {
+      "title": "Keep Me in Your Heart",
+      "artist": "Warren Zevon",
+      "genre": "Rock",
+      "decade": "2000s"
     },
     {
       "title": "King Of The Road",
@@ -1693,6 +1957,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Lake Shore Drive",
+      "artist": "Aliotta Haynes Jeremiah",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
       "title": "Landslide",
       "artist": "Fleetwood Mac",
       "genre": "Rock",
@@ -1705,6 +1975,12 @@
       "decade": "1960s"
     },
     {
+      "title": "Late for the Sky",
+      "artist": "Jackson Browne",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
       "title": "Laughter in the Rain",
       "artist": "Neil Sedaka",
       "genre": "Pop",
@@ -1715,6 +1991,12 @@
       "artist": "Édith Piaf",
       "genre": "Jazz & Standards",
       "decade": "1940s"
+    },
+    {
+      "title": "Lawyers, Guns and Money",
+      "artist": "Warren Zevon",
+      "genre": "Rock",
+      "decade": "1970s"
     },
     {
       "title": "Lean On Me",
@@ -1733,6 +2015,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1970s"
+    },
+    {
+      "title": "Let It Go",
+      "artist": "James Bay",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Let Me Be Your Wings",
@@ -1801,16 +2089,64 @@
       "decade": "2000s"
     },
     {
+      "title": "London Bridge Is Falling Down",
+      "artist": "Traditional",
+      "genre": "Folk",
+      "decade": "Traditional"
+    },
+    {
+      "title": "Lonely Avenue",
+      "artist": "Ray Charles",
+      "genre": "R&B/Soul",
+      "decade": "1950s"
+    },
+    {
+      "title": "Look at Us",
+      "artist": "Vince Gill",
+      "genre": "Country",
+      "decade": "1990s"
+    },
+    {
       "title": "Lose Control",
       "artist": "Teddy Swims",
       "genre": "R&B/Soul",
       "decade": "2020s"
     },
     {
+      "title": "Lost Boy",
+      "artist": "Ruth B.",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
+      "title": "Lost in the Darkness",
+      "artist": "Jekyll & Hyde",
+      "genre": "Broadway & Film",
+      "decade": "1990s"
+    },
+    {
+      "title": "Love",
+      "artist": "Musiq Soulchild",
+      "genre": "R&B/Soul",
+      "decade": "2000s"
+    },
+    {
       "title": "L-O-V-E",
       "artist": "Nat King Cole",
       "genre": "Jazz & Standards",
       "decade": "1960s"
+    },
+    {
+      "title": "Love Like This",
+      "artist": "Lauren Daigle",
+      "genre": "Gospel & Christian",
+      "decade": "2010s"
+    },
+    {
+      "title": "Lovely Day",
+      "artist": "Bill Withers",
+      "genre": "R&B/Soul",
+      "decade": "1970s"
     },
     {
       "title": "Love Of My Life",
@@ -1831,6 +2167,12 @@
       "decade": "2010s"
     },
     {
+      "title": "Loves Me Like a Rock",
+      "artist": "Paul Simon",
+      "genre": "Pop",
+      "decade": "1970s"
+    },
+    {
       "title": "Love Song",
       "artist": "Sara Bareilles",
       "genre": "Pop",
@@ -1846,6 +2188,18 @@
       "title": "Love the Way You Lie",
       "artist": "Eminem",
       "genre": "Hip-Hop/Rap",
+      "decade": "2010s"
+    },
+    {
+      "title": "Love Your Love the Most",
+      "artist": "Eric Church",
+      "genre": "Country",
+      "decade": "2000s"
+    },
+    {
+      "title": "Lovin' You Is Fun",
+      "artist": "Easton Corbin",
+      "genre": "Country",
       "decade": "2010s"
     },
     {
@@ -1883,6 +2237,12 @@
       "artist": "Bobby Darin",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "Maggie's Song",
+      "artist": "Chris Stapleton",
+      "genre": "Country",
+      "decade": "2020s"
     },
     {
       "title": "Make It With You",
@@ -1959,6 +2319,12 @@
       "decade": "1960s"
     },
     {
+      "title": "Midnight at the Oasis",
+      "artist": "Maria Muldaur",
+      "genre": "Pop",
+      "decade": "1970s"
+    },
+    {
       "title": "Midnight Train to Georgia",
       "artist": "Gladys Knight & The Pips",
       "genre": "R&B/Soul",
@@ -1981,6 +2347,12 @@
       "artist": "Paramore",
       "genre": "Rock",
       "decade": "2000s"
+    },
+    {
+      "title": "Miss Sun",
+      "artist": "Boz Scaggs",
+      "genre": "Rock",
+      "decade": "1980s"
     },
     {
       "title": "Misty",
@@ -2039,6 +2411,12 @@
       "decade": "1970s"
     },
     {
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "genre": "Rock",
+      "decade": "2000s"
+    },
+    {
       "title": "Mr. Tambourine Man",
       "artist": "Bob Dylan",
       "genre": "Rock",
@@ -2093,6 +2471,18 @@
       "decade": "1970s"
     },
     {
+      "title": "My Little Girl",
+      "artist": "Tim McGraw",
+      "genre": "Country",
+      "decade": "2000s"
+    },
+    {
+      "title": "My Love Remains",
+      "artist": "Jonny Lang",
+      "genre": "Gospel & Christian",
+      "decade": "2000s"
+    },
+    {
       "title": "My One and Only Love",
       "artist": "John Coltrane & Johnny Hartman",
       "genre": "Jazz & Standards",
@@ -2111,6 +2501,12 @@
       "decade": "1960s"
     },
     {
+      "title": "My Wish",
+      "artist": "Rascal Flatts",
+      "genre": "Country",
+      "decade": "2000s"
+    },
+    {
       "title": "Neon Moon",
       "artist": "Brooks & Dunn",
       "genre": "Country",
@@ -2124,6 +2520,12 @@
       "decade": "1920s"
     },
     {
+      "title": "New Year's Day",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
       "title": "New York State of Mind",
       "artist": "Billy Joel",
       "genre": "Pop",
@@ -2135,6 +2537,18 @@
       "artist": "Bob Seger & The Silver Bullet Band",
       "genre": "Rock",
       "decade": "1970s"
+    },
+    {
+      "title": "Nobody but Me",
+      "artist": "Michael Bublé",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
+      "title": "No Bravery",
+      "artist": "James Blunt",
+      "genre": "Pop",
+      "decade": "2000s"
     },
     {
       "title": "No Diggity",
@@ -2153,6 +2567,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Nothing Compares 2 U",
+      "artist": "Sinéad O'Connor",
+      "genre": "Pop",
+      "decade": "1990s"
     },
     {
       "title": "Nothing's Gonna Stop Me Now",
@@ -2183,6 +2603,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Oh Girl",
+      "artist": "The Chi-Lites",
+      "genre": "R&B/Soul",
+      "decade": "1970s"
     },
     {
       "title": "Oh, Pretty Woman",
@@ -2221,10 +2647,22 @@
       "decade": "1950s"
     },
     {
+      "title": "One in a Million You",
+      "artist": "Larry Graham",
+      "genre": "R&B/Soul",
+      "decade": "1980s"
+    },
+    {
       "title": "One Love / People Get Ready",
       "artist": "Bob Marley & The Wailers",
       "genre": "Reggae",
       "decade": "1970s"
+    },
+    {
+      "title": "One More Try",
+      "artist": "George Michael",
+      "genre": "Pop",
+      "decade": "1980s"
     },
     {
       "title": "Only the Good Die Young",
@@ -2270,6 +2708,18 @@
       "favorite": true
     },
     {
+      "title": "Orpheus",
+      "artist": "Sara Bareilles",
+      "genre": "Pop",
+      "decade": "2010s"
+    },
+    {
+      "title": "Outlaw Women",
+      "artist": "Hank Williams Jr.",
+      "genre": "Country",
+      "decade": "1970s"
+    },
+    {
       "title": "Over the Rainbow",
       "artist": "Judy Garland",
       "genre": "Broadway & Film",
@@ -2280,6 +2730,12 @@
       "artist": "The Rolling Stones",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Pancho and Lefty",
+      "artist": "Willie Nelson",
+      "genre": "Country",
+      "decade": "1980s"
     },
     {
       "title": "Party In the U.S.A.",
@@ -2366,6 +2822,18 @@
       "decade": "1970s"
     },
     {
+      "title": "Prayed for You",
+      "artist": "Matt Stell",
+      "genre": "Country",
+      "decade": "2010s"
+    },
+    {
+      "title": "Prelude in D-flat Major (Raindrop)",
+      "artist": "Frédéric Chopin",
+      "genre": "Classical",
+      "decade": "1830s"
+    },
+    {
       "title": "Private Eyes",
       "artist": "Daryl Hall & John Oates",
       "genre": "Rock",
@@ -2415,6 +2883,12 @@
       "decade": "1950s"
     },
     {
+      "title": "Rags to Riches",
+      "artist": "Tony Bennett",
+      "genre": "Jazz & Standards",
+      "decade": "1950s"
+    },
+    {
       "title": "Raindrops Keep Fallin' on My Head",
       "artist": "B.J. Thomas",
       "genre": "Pop",
@@ -2425,6 +2899,12 @@
       "artist": "Carpenters",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "Real Emotional Girl",
+      "artist": "Randy Newman",
+      "genre": "Pop",
+      "decade": "1980s"
     },
     {
       "title": "Redbone",
@@ -2493,6 +2973,12 @@
       "decade": "2010s"
     },
     {
+      "title": "River Flows in You",
+      "artist": "Yiruma",
+      "genre": "Classical",
+      "decade": "2000s"
+    },
+    {
       "title": "Rocket Man (I Think It's Going to Be a Long Long Time)",
       "artist": "Elton John",
       "genre": "Pop",
@@ -2517,6 +3003,12 @@
       "decade": "1960s"
     },
     {
+      "title": "Roland the Headless Thompson Gunner",
+      "artist": "Warren Zevon",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
       "title": "Rolling in the Deep",
       "artist": "Adele",
       "genre": "Pop",
@@ -2533,6 +3025,12 @@
       "artist": "The Drifters",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "Run Away to Mars",
+      "artist": "TALK",
+      "genre": "Rock",
+      "decade": "2020s"
     },
     {
       "title": "Sad Eyes",
@@ -2560,6 +3058,12 @@
       "decade": "2010s"
     },
     {
+      "title": "Sail Away",
+      "artist": "David Gray",
+      "genre": "Pop",
+      "decade": "1990s"
+    },
+    {
       "title": "Sailing",
       "artist": "Christopher Cross",
       "genre": "Pop",
@@ -2577,6 +3081,12 @@
       "artist": "Dan Fogelberg",
       "genre": "Pop",
       "decade": "1980s"
+    },
+    {
+      "title": "Santa's Coming for Us",
+      "artist": "Sia",
+      "genre": "Pop",
+      "decade": "2010s"
     },
     {
       "title": "Sara Smile",
@@ -2608,6 +3118,18 @@
       "artist": "Kenny Chesney",
       "genre": "Country",
       "decade": "2010s"
+    },
+    {
+      "title": "Save Me",
+      "artist": "Jelly Roll",
+      "genre": "Country",
+      "decade": "2020s"
+    },
+    {
+      "title": "Save Room",
+      "artist": "John Legend",
+      "genre": "R&B/Soul",
+      "decade": "2000s"
     },
     {
       "title": "Saving All My Love for You",
@@ -2688,6 +3210,12 @@
       "decade": "2000s"
     },
     {
+      "title": "Sign Your Name",
+      "artist": "Terence Trent D'Arby",
+      "genre": "R&B/Soul",
+      "decade": "1980s"
+    },
+    {
       "title": "Silly Love Songs",
       "artist": "Wings",
       "genre": "Rock",
@@ -2752,6 +3280,12 @@
       "artist": "Sade",
       "genre": "R&B/Soul",
       "decade": "1980s"
+    },
+    {
+      "title": "Snow (Hey Oh)",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Rock",
+      "decade": "2000s"
     },
     {
       "title": "Sober",
@@ -2832,6 +3366,12 @@
       "decade": "1960s"
     },
     {
+      "title": "Starting Over",
+      "artist": "Chris Stapleton",
+      "genre": "Country",
+      "decade": "2020s"
+    },
+    {
       "title": "Stay With Me",
       "artist": "Sam Smith",
       "genre": "Pop",
@@ -2842,6 +3382,12 @@
       "artist": "Miles Davis",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "Stick Season",
+      "artist": "Noah Kahan",
+      "genre": "Folk",
+      "decade": "2020s"
     },
     {
       "title": "St. James Infirmary",
@@ -2860,6 +3406,12 @@
       "artist": "Nat King Cole",
       "genre": "Jazz & Standards",
       "decade": "1940s"
+    },
+    {
+      "title": "Stranger in My House",
+      "artist": "Ronnie Milsap",
+      "genre": "Country",
+      "decade": "1980s"
     },
     {
       "title": "Strangers in the Night",
@@ -2916,6 +3468,12 @@
       "artist": "Maroon 5",
       "genre": "Pop",
       "decade": "2000s"
+    },
+    {
+      "title": "Sunglasses at Night",
+      "artist": "Corey Hart",
+      "genre": "Pop",
+      "decade": "1980s"
     },
     {
       "title": "Super Bass",
@@ -2984,6 +3542,12 @@
       "decade": "1970s"
     },
     {
+      "title": "Talk Is Cheap",
+      "artist": "Chet Faker",
+      "genre": "R&B/Soul",
+      "decade": "2010s"
+    },
+    {
       "title": "Teach Me Tonight",
       "artist": "Dinah Washington",
       "genre": "Jazz & Standards",
@@ -3045,6 +3609,12 @@
       "decade": "1960s"
     },
     {
+      "title": "That Spirit of Christmas",
+      "artist": "Ray Charles",
+      "genre": "R&B/Soul",
+      "decade": "1980s"
+    },
+    {
       "title": "The Best",
       "artist": "Tina Turner",
       "genre": "R&B/Soul",
@@ -3067,6 +3637,24 @@
       "artist": "The Charlie Daniels Band",
       "genre": "Country",
       "decade": "1970s"
+    },
+    {
+      "title": "The Downeaster Alexa",
+      "artist": "Billy Joel",
+      "genre": "Rock",
+      "decade": "1980s"
+    },
+    {
+      "title": "The Entertainer",
+      "artist": "Billy Joel",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
+      "title": "The Entertainer",
+      "artist": "Scott Joplin",
+      "genre": "Jazz & Standards",
+      "decade": "1900s"
     },
     {
       "title": "The Girl from Ipanema",
@@ -3130,6 +3718,12 @@
       "decade": "1990s"
     },
     {
+      "title": "There's Always Me",
+      "artist": "Elvis Presley",
+      "genre": "Pop",
+      "decade": "1960s"
+    },
+    {
       "title": "The Rose",
       "artist": "Bette Midler",
       "genre": "Broadway & Film",
@@ -3140,6 +3734,12 @@
       "artist": "Coldplay",
       "genre": "Rock",
       "decade": "2000s"
+    },
+    {
+      "title": "These Arms of Mine",
+      "artist": "Otis Redding",
+      "genre": "R&B/Soul",
+      "decade": "1960s"
     },
     {
       "title": "The Very Thought of You",
@@ -3182,6 +3782,12 @@
       "artist": "George Benson",
       "genre": "Jazz & Standards",
       "decade": "1970s"
+    },
+    {
+      "title": "This Woman's Work",
+      "artist": "Maxwell",
+      "genre": "R&B/Soul",
+      "decade": "1990s"
     },
     {
       "title": "Three Little Birds",
@@ -3257,16 +3863,40 @@
       "favorite": true
     },
     {
+      "title": "Two Out of Three Ain't Bad",
+      "artist": "Meat Loaf",
+      "genre": "Rock",
+      "decade": "1970s"
+    },
+    {
       "title": "Umbrella",
       "artist": "Rihanna",
       "genre": "Pop",
       "decade": "2000s"
     },
     {
+      "title": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Rock",
+      "decade": "1990s"
+    },
+    {
       "title": "Unforgettable",
       "artist": "Nat King Cole",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "Until the End of Time",
+      "artist": "Justin Timberlake",
+      "genre": "R&B/Soul",
+      "decade": "2000s"
+    },
+    {
+      "title": "Up Down",
+      "artist": "Morgan Wallen",
+      "genre": "Country",
+      "decade": "2010s"
     },
     {
       "title": "Uptown Girl",
@@ -3330,6 +3960,12 @@
       "decade": "1980s"
     },
     {
+      "title": "Was It 26",
+      "artist": "Chris Stapleton",
+      "genre": "Country",
+      "decade": "2010s"
+    },
+    {
       "title": "Wasted On You",
       "artist": "Morgan Wallen",
       "genre": "Country",
@@ -3360,6 +3996,12 @@
       "decade": "1950s"
     },
     {
+      "title": "What If I Loved You",
+      "artist": "Joey Gian",
+      "genre": "Jazz & Standards",
+      "decade": "2000s"
+    },
+    {
       "title": "What I've Done",
       "artist": "Linkin Park",
       "genre": "Rock",
@@ -3388,6 +4030,12 @@
       "artist": "Nat King Cole",
       "genre": "Jazz & Standards",
       "decade": "1950s"
+    },
+    {
+      "title": "When I'm Gone",
+      "artist": "3 Doors Down",
+      "genre": "Rock",
+      "decade": "2000s"
     },
     {
       "title": "When I Was Your Man",
@@ -3424,6 +4072,12 @@
       "artist": "The Beatles",
       "genre": "Rock",
       "decade": "1960s"
+    },
+    {
+      "title": "Whiskey and You",
+      "artist": "Chris Stapleton",
+      "genre": "Country",
+      "decade": "2010s"
     },
     {
       "title": "Whiskey Lullaby",
@@ -3492,6 +4146,12 @@
       "decade": "1960s"
     },
     {
+      "title": "With Arms Wide Open",
+      "artist": "Creed",
+      "genre": "Rock",
+      "decade": "1990s"
+    },
+    {
       "title": "Wonderful Tonight",
       "artist": "Eric Clapton",
       "genre": "Rock",
@@ -3520,6 +4180,18 @@
       "artist": "Village People",
       "genre": "Pop",
       "decade": "1970s"
+    },
+    {
+      "title": "You and Tequila",
+      "artist": "Kenny Chesney",
+      "genre": "Country",
+      "decade": "2010s"
+    },
+    {
+      "title": "You Are",
+      "artist": "Lionel Richie",
+      "genre": "R&B/Soul",
+      "decade": "1980s"
     },
     {
       "title": "You Are My Sunshine",
@@ -3560,6 +4232,18 @@
       "favorite": true
     },
     {
+      "title": "You Make My Dreams",
+      "artist": "Hall & Oates",
+      "genre": "Pop",
+      "decade": "1980s"
+    },
+    {
+      "title": "You Matter to Me",
+      "artist": "Sara Bareilles",
+      "genre": "Broadway & Film",
+      "decade": "2010s"
+    },
+    {
       "title": "Young Forever",
       "artist": "JAY-Z",
       "genre": "Hip-Hop/Rap",
@@ -3572,10 +4256,22 @@
       "decade": "2010s"
     },
     {
+      "title": "Your Heart Is as Black as Night",
+      "artist": "Melody Gardot",
+      "genre": "Jazz & Standards",
+      "decade": "2000s"
+    },
+    {
       "title": "Your Side of the Bed",
       "artist": "Little Big Town",
       "genre": "Country",
       "decade": "2010s"
+    },
+    {
+      "title": "Your Smiling Face",
+      "artist": "James Taylor",
+      "genre": "Pop",
+      "decade": "1970s"
     },
     {
       "title": "Your Song",
